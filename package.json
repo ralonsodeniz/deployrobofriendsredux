@@ -2,7 +2,7 @@
   "name": "deployrobofriendsredux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ralonsodeniz.github.io/deployrobofriendsredux",
+  "homepage": "https://ralonsodeniz.github.io/deployrobofriendsredux/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
