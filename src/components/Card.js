@@ -2,9 +2,13 @@ import React from "react"; //even if it seems we are not using react, we are, al
 
 const Card = ({ name, email, id }) => {
   return (
-    <div className="tc bg-light-green dib br3 ma2 grow bw2 shadow-5">
+    <div className="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
       <div>
-        <img src={`https://robohash.org/${id}?set=set4`} alt="robots" />
+        <img
+          src={`https://robohash.org/${id}?size=200x200&set=set4`}
+          alt="robots"
+          hei
+        />
       </div>
       <div>
         <h2>{name}</h2>
